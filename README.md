@@ -10,4 +10,22 @@ $ python arangit.py --path <git_repository_root>
 
 ## Screenshots
 
+### ArangoDB Collections
+
 ![Alt text](images/01.png?raw=true "ArangoDB Collections")
+
+### Subset of Graph
+
+![Alt text](images/02.png?raw=true "Graph Visualization")
+
+### Commit Objects
+
+![Alt text](images/03.png?raw=true "Commit Objects")
+
+### Tree Objects
+
+![Alt text](images/04.png?raw=true "Tree Objects")
+
+### Blob Objects
+
+![Alt text](images/05.png?raw=true "Blob Objects")
