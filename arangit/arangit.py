@@ -212,9 +212,11 @@ def create_arangit_graph(graph_name):
                 json_serialized = json.dumps(document)
             except:
                 document["content"] = "unavailable"
-                collection_handle.insert(document)
-            else:
-                collection_handle.insert(document)
+            finally:
+                try:
+                    collection_handle.insert(document)
+                except:
+                    pass
 
     # Edge between branches and commits
     ARANGO_GRAPH.create_edge_definition(name=graph_name + '_branch_commit_edge',

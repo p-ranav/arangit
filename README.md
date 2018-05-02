@@ -2,13 +2,20 @@
 
 arangit is an ArangoDB importer that (1) can parse a valid .git directory, (2) build a graph data model and (3) import this graph into ArangoDB
 
-## Usage
+## Quick Start
 
 ```bash
 $ python arangit.py --path <git_repository_root>
 ```
 
-## Screenshots
+## Example Usage
+
+```bash
+$ git clone https://github.com/pranav-srinivas-kumar/arangit
+$ cd arangit/arangit
+$ git clone https://github.com/rosmod/webgme-rosmod
+$ python arangit --path webgme-rosmod
+```
 
 ### ArangoDB Collections
 
