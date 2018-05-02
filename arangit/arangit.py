@@ -146,6 +146,11 @@ def scan_git_object(repository_root, object_hash):
                 scan_git_object(repository_root, child["hash"])
 
     elif git_cat_file_type == "blob":
+        encoded_content = ""
+        try:
+            encoded_content = git_cat_file_print.encode("utf-8")
+        except:
+            encoded_content = "unavailable"
         git_object = {
             "type": git_cat_file_type,
             "hash": object_hash,
@@ -284,4 +289,5 @@ if __name__ == "__main__":
     #print("BLOB OBJECTS:\n", json.dumps(BLOB_OBJECTS, indent=4))
 
     git_repository_name = os.path.basename(path_argument)
+    print(git_repository_name)
     create_arangit_graph(git_repository_name)
