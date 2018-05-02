@@ -17,26 +17,28 @@ $ git clone https://github.com/pranav-srinivas-kumar/zcm
 $ python arangit --path zcm
 ```
 
-### ArangoDB Collections
+## ArangoDB Collections
 
 ![Alt text](images/01.png?raw=true "ArangoDB Collections")
 
-### Arango Graph
+## Arango Graph
 
 ![Alt text](images/02.png?raw=true "Graph Visualization")
 
-### Branches
+![Alt text](images/02a.png?raw=true "Graph Visualization")
+
+## Branches
 
 ![Alt text](images/03.png?raw=true "Branches")
 
-### Commit Objects
+## Commit Objects
 
 ![Alt text](images/04.png?raw=true "Commit Objects")
 
-### Tree Objects
+## Tree Objects
 
 ![Alt text](images/05.png?raw=true "Tree Objects")
 
-### Blob Objects
+## Blob Objects
 
 ![Alt text](images/06.png?raw=true "Blob Objects")
