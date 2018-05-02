@@ -29,7 +29,7 @@ $ python arangit --path zcm
 
 ## Branches
 
-![Alt text](images/03.png?raw=true "Branches")
+![Alt text](images/03.png?raw=true width=50 "Branches")
 
 ## Commit Objects
 
